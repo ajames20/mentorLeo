@@ -1,0 +1,34 @@
+body {
+  background-color: #F2F2F2; }
+
+.header {
+  color: #bcbcbc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 6em; }
+  .header ul {
+    display: flex;
+    list-style-type: none; }
+  .header ul li {
+    margin: 1em; }
+  .header li {
+    border: none; }
+  .header #css,
+  .header #html,
+  .header #javascript {
+    padding: 0.5em 1em;
+    border-radius: 5px; }
+  .header #html {
+    color: #FFF;
+    background-color: #F16528;
+    border: 1px solid #F16528; }
+  .header #css {
+    color: #FFF;
+    background-color: #006EB9;
+    border: 1px solid #006EB9; }
+  .header #javascript {
+    color: #000;
+    background-color: #F0DA50;
+    border: 1px solid #F0DA50; }
+
+/*# sourceMappingURL=main.css.map */
