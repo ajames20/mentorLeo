@@ -1,20 +1,25 @@
 body {
     background-color: #F2F2F2;
+
+    li {
+        list-style-type: none;
+    }
 }
 
 .header {
     color: #bcbcbc;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 0.5em 6em;
+    align-items: center;
+    padding: 0.7em 6em;
 
     ul {
         display: flex;
-        list-style-type: none;
     }
 
     ul li {
-        margin: 1em;
+        margin: 0 1em;
     }
 
     li {
@@ -24,18 +29,17 @@ body {
     #css,
     #html,
     #javascript {
+        color: #FFF;
         padding: 0.5em 1em;
         border-radius: 5px;
     }
 
     #html {
-        color: #FFF;
         background-color: #F16528;
         border: 1px solid #F16528;
     }
 
     #css {
-        color: #FFF;
         background-color: #006EB9;
         border: 1px solid #006EB9;
     }
@@ -47,4 +51,11 @@ body {
     }
 }
 
-main {}
+.list-job {
+    margin-top: 1em;
+    text-align: center;
+
+    li {
+        margin-top: 2.25em;
+    }
+}
