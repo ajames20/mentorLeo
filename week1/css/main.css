@@ -1,6 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300");
 body {
   background-color: #F2F2F2; }
+  body a {
+    margin: 0;
+    padding: 0;
+    cursor: pointer; }
+  body p {
+    margin: 0; }
+  body ul {
+    margin: 0; }
   body li {
+    margin: 0;
     list-style-type: none; }
 
 .header {
@@ -10,33 +20,56 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.7em 6em; }
-  .header ul {
-    display: flex; }
-  .header ul li {
-    margin: 0 1em; }
-  .header li {
-    border: none; }
-  .header #css,
-  .header #html,
-  .header #javascript {
-    color: #FFF;
-    padding: 0.5em 1em;
-    border-radius: 5px; }
-  .header #html {
-    background-color: #F16528;
-    border: 1px solid #F16528; }
-  .header #css {
-    background-color: #006EB9;
-    border: 1px solid #006EB9; }
-  .header #javascript {
-    color: #000;
-    background-color: #F0DA50;
-    border: 1px solid #F0DA50; }
 
 .list-job {
   margin-top: 1em;
   text-align: center; }
-  .list-job li {
-    margin-top: 2.25em; }
+
+.card-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start; }
+
+.card {
+  width: 300px;
+  margin: 0.6em;
+  background: white;
+  border-radius: 2px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.1);
+  padding: 0 0 1rem; }
+  .card .description,
+  .card .job-title,
+  .card .title {
+    padding: 0 1rem; }
+  .card .title {
+    font-size: 1.75rem;
+    margin: 0;
+    color: #333;
+    margin-top: 0.5rem;
+    width: 100%;
+    color: #1EAEDB; }
+  .card .job-title {
+    font-size: 1.25rem;
+    color: #333;
+    margin-top: 0.5rem;
+    letter-spacing: 0.1em; }
+  .card .description {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #555; }
+  .card h3 {
+    letter-spacing: 0.1em; }
+  .card p {
+    line-height: 1.4em;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5em; }
+  .card a {
+    text-decoration: none;
+    margin-top: 1em;
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */
